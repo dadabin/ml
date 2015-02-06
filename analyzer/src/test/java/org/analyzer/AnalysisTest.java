@@ -24,7 +24,6 @@ public class AnalysisTest {
     public void analysisTest() throws IOException {
         IKSAnalyzer analyzer = new IKSAnalyzer();
         String temp ="去哪儿搜索衣服搜索";
-
         TokenStream token=analyzer.tokenStream("", new StringReader(temp));
         CharTermAttribute term=token.addAttribute(CharTermAttribute.class);
         token.reset();
@@ -41,6 +40,22 @@ public class AnalysisTest {
             else if(i==2) assertEquals("衣服",arry.get(i));
             else assertEquals("搜索",arry.get(i));
         }
+
+    }
+
+    public static void main(String[] args) throws IOException {
+        IKSAnalyzer analyzer = new IKSAnalyzer();
+        String temp ="去哪儿<html></html>搜索衣服搜索";
+        TokenStream token=analyzer.tokenStream("", new StringReader(temp));
+        CharTermAttribute term=token.addAttribute(CharTermAttribute.class);
+        token.reset();
+      //  List<String> arry=new ArrayList<String>();
+        while(token.incrementToken()){
+            System.out.println(term.toString());
+         //   arry.add(term.toString());
+        }
+        token.end();
+        token.close();
 
     }
 

@@ -101,7 +101,6 @@ public final class IKSegmenter {
                 // reader已经读完
                 context.reset();
                 return null;
-
             } else {
                 // 初始化指针
                 context.initCursor();
