@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.analyzer.conf.Configuration;
 import org.analyzer.conf.DefaultConfig;
-import org.analyzer.dic.Dictionary;
+import org.analyzer.dic.Dic;
 
 /**
  * IK 分词器朱磊
@@ -58,7 +58,7 @@ public final class IKSegmenter {
      */
     private void init() {
         // 初始化词典单例
-        Dictionary.initial(this.cfg);
+        Dic.initial(this.cfg);
         // 初始化分词上下文
         this.context = new AnalyzeContext(this.cfg);
         // 加载子分词器

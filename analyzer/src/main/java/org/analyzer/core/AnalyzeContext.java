@@ -1,6 +1,7 @@
 package org.analyzer.core;
 
 import org.analyzer.conf.Configuration;
+import org.analyzer.dic.Dic;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -309,7 +310,7 @@ public class AnalyzeContext {
         while (result != null) {
             // 数量词合并
             this.compound(result);
-            if (Dictionary.getSingleton().isStopWord(this.segmentBuff, result.getBegin(),
+            if (Dic.getSingleton().isStopWord(this.segmentBuff, result.getBegin(),
                     result.getLength())) {
                 // 是停止词继续取列表的下一个
                 result = this.results.pollFirst();

@@ -1,6 +1,6 @@
 package org.analyzer.core;
 
-import org.analyzer.dic.Dictionary;
+import org.analyzer.dic.Dic;
 import org.analyzer.dic.Hit;
 
 import java.util.LinkedList;
@@ -29,7 +29,7 @@ public class CJKSegmenter implements ISegmenter {
                 // 处理词段队列
                 Hit[] tmpArray = this.tmpHits.toArray(new Hit[this.tmpHits.size()]);
                 for (Hit hit : tmpArray) {
-                    hit = Dictionary.getSingleton().matchWithHit(context.getSegmentBuff(),
+                    hit = Dic.getSingleton().matchWithHit(context.getSegmentBuff(),
                             context.getCursor(), hit);
                     if (hit.isMatch()) {
                         // 输出当前的词
@@ -50,7 +50,7 @@ public class CJKSegmenter implements ISegmenter {
 
             // *********************************
             // 再对当前指针位置的字符进行单字匹配
-            Hit singleCharHit = Dictionary.getSingleton().matchInMainDict(context.getSegmentBuff(),
+            Hit singleCharHit = Dic.getSingleton().matchInMainDict(context.getSegmentBuff(),
                     context.getCursor(), 1);
             if (singleCharHit.isMatch()) {// 首字成词
                 // 输出当前的词

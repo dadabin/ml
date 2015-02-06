@@ -1,5 +1,8 @@
 package org.analyzer.core;
 
+import org.analyzer.dic.Dic;
+import org.analyzer.dic.Hit;
+
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -131,7 +134,7 @@ public class CN_QuantifierSegmenter implements ISegmenter {
                 // 处理词段队列
                 Hit[] tmpArray = this.countHits.toArray(new Hit[this.countHits.size()]);
                 for (Hit hit : tmpArray) {
-                    hit = Dictionary.getSingleton().matchWithHit(context.getSegmentBuff(),
+                    hit = Dic.getSingleton().matchWithHit(context.getSegmentBuff(),
                             context.getCursor(), hit);
                     if (hit.isMatch()) {
                         // 输出当前的词
@@ -152,7 +155,7 @@ public class CN_QuantifierSegmenter implements ISegmenter {
 
             // *********************************
             // 对当前指针位置的字符进行单字匹配
-            Hit singleCharHit = Dictionary.getSingleton().matchInQuantifierDict(
+            Hit singleCharHit = Dic.getSingleton().matchInQuantifierDict(
                     context.getSegmentBuff(), context.getCursor(), 1);
             if (singleCharHit.isMatch()) {// 首字成量词词
                 // 输出当前的词
