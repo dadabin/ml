@@ -19,7 +19,8 @@ public class Dictionary {
 
     private Configuration cfg;
     private static Dictionary inital(Configuration cfg){
-        this.cfg=cfg;
+        cfg=cfg;
+        return null;
     }
 
 }
