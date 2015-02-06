@@ -11,9 +11,6 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.Set;
 
-
-
-
 /**
  * 分词器上下文状态
  *
