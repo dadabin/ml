@@ -10,7 +10,7 @@ import org.analyzer.conf.DefaultConfig;
 import org.analyzer.dic.Dic;
 
 /**
- * IK 分词器朱磊
+ * IK 分词器
  *
  * @author rimi
  */

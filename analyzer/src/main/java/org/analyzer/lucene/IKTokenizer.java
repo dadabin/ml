@@ -46,7 +46,7 @@ public class IKTokenizer extends Tokenizer {
      * @see org.apache.lucene.analysis.TokenStream#incrementToken()
      */
     @Override
-    public final boolean incrementToken() throws IOException {
+    public  final   boolean incrementToken() throws IOException {
         // 清除所有的词元属性
         clearAttributes();
         Lexeme nextLexeme = _IKImplement.next();
