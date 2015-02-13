@@ -39,13 +39,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InvertedIndex.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InvertedIndex.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../spark_ml/src/main/scala/com/ml/InvertedIndex.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5663189" vertical-offset="0" max-vertical-offset="760">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding>
                 <element signature="e#16#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordCount.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../spark_ml/src/main/scala/com/ml/WordCount.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6510903" vertical-offset="0" max-vertical-offset="642">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <folding>
+                <element signature="e#16#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/Hell.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/analyzer/conf/Configuration.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/analyzer/dic/DictSegment.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/analyzer/dic/Hit.java" />
@@ -111,6 +122,7 @@
         <option value="$PROJECT_DIR$/../spark_ml/src/main/scala/com/ml/DocKMeans.scala" />
         <option value="$PROJECT_DIR$/../spark_ml/pom.xml" />
         <option value="$PROJECT_DIR$/../spark_ml/src/main/scala/com/ml/InvertedIndex.scala" />
+        <option value="$PROJECT_DIR$/../spark_ml/src/main/scala/com/ml/WordCount.scala" />
       </list>
     </option>
   </component>
@@ -121,10 +133,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="x" value="1001" />
+    <option name="width" value="960" />
+    <option name="height" value="1160" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -717,15 +728,15 @@
       <workItem from="1423444131353" duration="8144000" />
       <workItem from="1423534834833" duration="3557000" />
       <workItem from="1423708477387" duration="4187000" />
-      <workItem from="1423792655466" duration="7518000" />
+      <workItem from="1423792655466" duration="7782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44804000" />
+    <option name="totallyTimeSpent" value="45068000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="1001" y="0" width="960" height="1160" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -737,14 +748,14 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3445693" sideWeight="0.33489582" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34980989" sideWeight="0.33474576" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3445693" sideWeight="0.66510415" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34980989" sideWeight="0.66419494" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3220974" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20052083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40783897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -787,13 +798,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/main2012.dic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1333334" vertical-offset="1832095" max-vertical-offset="5238661">
-          <caret line="96431" column="4" selection-start-line="96431" selection-start-column="4" selection-end-line="96431" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/analyzer/dic/DicTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
@@ -1121,8 +1125,8 @@
         <state vertical-scroll-proportion="0.71684057" vertical-offset="1191" max-vertical-offset="1900">
           <caret line="93" column="42" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1393#1403#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1393#1403#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1132,7 +1136,7 @@
         <state vertical-scroll-proportion="-0.61400896" vertical-offset="982" max-vertical-offset="1653">
           <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1142,7 +1146,7 @@
         <state vertical-scroll-proportion="0.2071535" vertical-offset="203" max-vertical-offset="2185">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1152,7 +1156,7 @@
         <state vertical-scroll-proportion="0.6885246" vertical-offset="13" max-vertical-offset="703">
           <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1203,10 +1207,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../spark_ml/src/main/scala/com/ml/InvertedIndex.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5663189" vertical-offset="0" max-vertical-offset="760">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
             <element signature="e#16#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spark_ml/src/main/scala/com/ml/WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6510903" vertical-offset="0" max-vertical-offset="642">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#16#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
