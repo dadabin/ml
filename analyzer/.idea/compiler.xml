@@ -27,6 +27,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="analyzer" />
+        <module name="spider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
